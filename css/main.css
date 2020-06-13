@@ -1,0 +1,19 @@
+.navbarText{
+	font-family: Montserrat, sans-serif;
+}
+
+.navMenuFull{
+	display: none;
+}
+
+
+
+@media only screen and (min-width: 730px){
+	.navToggleButt{
+		display: none;
+	}
+	
+	.navMenuFull{
+		display: flex;
+	}
+}
