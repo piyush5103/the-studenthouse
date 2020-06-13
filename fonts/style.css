@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'Lulo Clean Outline Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Lulo Clean Outline Bold'), url('Yellow Design Studio - Lulo Clean Outline Bold.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Avenir LT Std 55 Roman';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 55 Roman'), url('AvenirLTStd-Roman.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Avenir LT Std 55 Oblique';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 55 Oblique'), url('AvenirLTStd-Oblique.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Avenir LT Std 35 Light';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 35 Light'), url('AvenirLTStd-Light.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Avenir LT Std 35 Light Oblique';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 35 Light Oblique'), url('AvenirLTStd-LightOblique.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Avenir LT Std 45 Book';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 45 Book'), url('AvenirLTStd-Book.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Avenir LT Std 45 Book Oblique';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 45 Book Oblique'), url('AvenirLTStd-BookOblique.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Avenir LT Std 65 Medium';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 65 Medium'), url('AvenirLTStd-Medium.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Avenir LT Std 65 Medium Oblique';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 65 Medium Oblique'), url('AvenirLTStd-MediumOblique.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Avenir LT Std 85 Heavy';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 85 Heavy'), url('AvenirLTStd-Heavy.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Avenir LT Std 85 Heavy Oblique';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 85 Heavy Oblique'), url('AvenirLTStd-HeavyOblique.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Avenir LT Std 95 Black';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 95 Black'), url('AvenirLTStd-Black.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Avenir LT Std 95 Black Oblique';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 95 Black Oblique'), url('AvenirLTStd-BlackOblique.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Lulo Clean One Bold';
+	src: url("164a60c2e090248befbcf32fdd5af386.eot");
+	/* IE9*/
+	src: url("164a60c2e090248befbcf32fdd5af386.eot?#iefix") format("embedded-opentype"),
+		/* IE6-IE8 */
+		url("164a60c2e090248befbcf32fdd5af386.woff2") format("woff2"),
+		/* chrome、firefox */
+		url("164a60c2e090248befbcf32fdd5af386.woff") format("woff"),
+		/* chrome、firefox */
+		url("164a60c2e090248befbcf32fdd5af386.ttf") format("truetype"),
+		/* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+		url("164a60c2e090248befbcf32fdd5af386.svg#Lulo Clean One Bold") format("svg");
+	/* iOS 4.1- */
+}

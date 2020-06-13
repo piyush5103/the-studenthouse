@@ -1,19 +1,36 @@
 .navbarText{
 	font-family: Montserrat, sans-serif;
+	letter-spacing: 0.25px
 }
 
 .navMenuFull{
+	display: flex;
+}
+
+.navToggleButt{
 	display: none;
 }
 
+.slideshowText{
+	font-family: Times New Roman, times, serif;
+	font-size: 75px;
+}
 
-
-@media only screen and (min-width: 730px){
+@media only screen and (max-width: 730px){
 	.navToggleButt{
-		display: none;
+		display: flex;
 	}
 	
 	.navMenuFull{
-		display: flex;
+		display: none;
+	}
+	
+	.slideshowText{
+		font-size: 50px;
 	}
 }
+
+#6cd8ef
+#febe49
+#BFE5FB
+#83A8F0
