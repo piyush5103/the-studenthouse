@@ -1,48 +1,57 @@
-a{
+a {
 	text-decoration: none;
 }
 
-.navbarText{
+.navbarText {
 	font-family: Montserrat, sans-serif;
-	letter-spacing: 0.25px
+	letter-spacing: 0.25px;
+	font-size: 15px
 }
 
-.navMenuFull{
+.navMenuFull {
 	display: flex;
 }
 
-.navToggleButt{
+.navToggleButt {
 	display: none;
 }
 
-.slideshowText{
+.slideshowText {
 	font-family: 'Lulo Clean One Bold', times, serif;
 	font-size: 60px;
 }
 
-.about-card-mobile{
+.about-card-mobile {
 	display: none;
 	margin-bottom: 70px;
 }
 
-@media only screen and (max-width: 730px){
-	.navToggleButt{
+.tiles-para {
+	font-family: 'Avenir LT Std 35 Light', sans-serif;
+	letter-spacing: 0.50px;
+	line-height: 1.8;
+	color: white;
+	font-size: 16px;
+}
+
+@media only screen and (max-width: 730px) {
+	.navToggleButt {
 		display: flex;
 	}
-	
-	.navMenuFull{
+
+	.navMenuFull {
 		display: none;
 	}
-	
-	.slideshowText{
+
+	.slideshowText {
 		font-size: 40px;
 	}
-	
-	.about-card-mobile{
+
+	.about-card-mobile {
 		display: flex;
 	}
-	
-	.about-card-desktop{
+
+	.about-card-desktop {
 		display: none;
 	}
 }
@@ -54,7 +63,4 @@ a{
 
 
 
-#6cd8ef
-#febe49
-#BFE5FB
-#83A8F0
+#6cd8ef #febe49 #BFE5FB #83A8F0
