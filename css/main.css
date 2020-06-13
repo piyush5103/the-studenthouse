@@ -20,6 +20,11 @@ a{
 	font-size: 60px;
 }
 
+.about-card-mobile{
+	display: none;
+	margin-bottom: 70px;
+}
+
 @media only screen and (max-width: 730px){
 	.navToggleButt{
 		display: flex;
@@ -30,7 +35,15 @@ a{
 	}
 	
 	.slideshowText{
-		font-size: 50px;
+		font-size: 40px;
+	}
+	
+	.about-card-mobile{
+		display: flex;
+	}
+	
+	.about-card-desktop{
+		display: none;
 	}
 }
 
