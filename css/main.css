@@ -2,6 +2,14 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
+.divider{
+	width: 80%; height: 2px; background: black;
+}
+
 .navbarText {
 	font-family: Montserrat, sans-serif;
 	letter-spacing: 0.25px;
@@ -31,10 +39,45 @@ a {
 	letter-spacing: 0.50px;
 	line-height: 1.8;
 	color: white;
-	font-size: 16px;
+	font-size: 18px;
 }
 
-@media only screen and (max-width: 730px) {
+.svg-story {
+	height: 175px;
+}
+
+.apply-now-button {
+	border-radius: 100px;
+	background-color: rgba(254, 97, 97, 1);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+	transition: background-color 0.35s;
+}
+
+.affil-card{
+	visibility: hidden;
+}
+
+.affil-card:hover{
+	visibility: visible;
+}
+
+.apply-now-button:hover{
+	background-color: #c7c7c7;
+}
+
+.about-read-more-button{
+	font-family: 'Avenir LT Std 65 Medium', sans-serif; font-size: 20px; background-color: white; padding-top: 4px;
+	transition-duration: 0.35s
+}
+
+.about-read-more-button:hover{
+	color: #a2a1a1;
+}
+
+@media only screen and (max-width: 900px) {
 	.navToggleButt {
 		display: flex;
 	}
@@ -55,6 +98,11 @@ a {
 		display: none;
 	}
 }
+
+
+
+
+
 
 
 
