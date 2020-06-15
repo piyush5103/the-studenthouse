@@ -68,13 +68,24 @@ a:hover {
 	background-color: #c7c7c7;
 }
 
-.about-read-more-button{
-	font-family: 'Avenir LT Std 65 Medium', sans-serif; font-size: 20px; background-color: white; padding-top: 4px;
-	transition-duration: 0.35s
+.footer-para{
+	font-family: 'Avenir LT Std 35 Light', sans-serif;
+	letter-spacing: 0.50px;
+	line-height: 1.9;
+	color: #adc6fb;
+	font-size: 16px;
 }
 
-.about-read-more-button:hover{
-	color: #a2a1a1;
+.footer-num{
+	color: #a3aaba;
+}
+
+.footer-form-field{
+	background-color: #23324f;
+}
+
+.footer-form-field:focus{
+	background-color: white;
 }
 
 @media only screen and (max-width: 900px) {
