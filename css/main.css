@@ -56,6 +56,11 @@ a:hover {
 	transition: background-color 0.35s;
 }
 
+.story-grid-mob{
+	display: none;
+	margin-bottom: 50px;
+}
+
 .affil-card{
 	visibility: hidden;
 }
@@ -88,6 +93,23 @@ a:hover {
 	background-color: white;
 }
 
+.home-title{
+	font-family: 'Lulo Clean One Bold', sans-serif;
+	font-size: 60px;
+}
+
+.words-mob{
+	display: none;
+}
+
+.affil-mob{
+	display: none;
+}
+
+.tiles-mob{
+	display: none;
+}
+
 @media only screen and (max-width: 900px) {
 	.navToggleButt {
 		display: flex;
@@ -106,6 +128,55 @@ a:hover {
 	}
 
 	.about-card-desktop {
+		display: none;
+	}
+	
+	.story-grid{
+		display: none;
+	}
+	
+	.story-grid-mob{
+		display: flex;
+	}
+	
+	.home-title{
+		font-size: 42px;
+	}
+	
+	.words-lap{
+		display: none;
+	}
+	
+	.words-mob{
+		display: block;
+	}
+	
+	.affil-mob{
+		display: block;
+	}
+	
+	.affil-lap{
+		display: none;
+	}
+	
+	.step-title{
+		font-size: 35px;
+		letter-spacing: -1px
+	}
+	
+	.footer-mob{
+		display:block;
+	}
+	
+	.footer-lap{
+		display: none;
+	}
+	
+	.tiles-mob{
+		display: block;
+	}
+	
+	.tiles-lap{
 		display: none;
 	}
 }
