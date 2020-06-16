@@ -25,7 +25,7 @@ a:hover {
 }
 
 .slideshowText {
-	font-family: 'Lulo Clean One Bold', times, serif;
+	font-family: Times New Roman, times, serif;
 	font-size: 60px;
 }
 
@@ -100,6 +100,11 @@ a:hover {
 
 .words-mob{
 	display: none;
+	font-family: 'Avenir LT Std 35 Light', sans-serif;
+}
+
+.words-lap{
+	font-family: 'Avenir LT Std 35 Light', sans-serif;
 }
 
 .affil-mob{
