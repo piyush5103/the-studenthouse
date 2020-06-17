@@ -6,8 +6,10 @@ a:hover {
 	text-decoration: none;
 }
 
-.divider{
-	width: 80%; height: 2px; background: black;
+.divider {
+	width: 80%;
+	height: 2px;
+	background: black;
 }
 
 .navbarText {
@@ -56,24 +58,24 @@ a:hover {
 	transition: background-color 0.35s;
 }
 
-.story-grid-mob{
+.story-grid-mob {
 	display: none;
 	margin-bottom: 50px;
 }
 
-.affil-card{
+.affil-card {
 	visibility: hidden;
 }
 
-.affil-card:hover{
+.affil-card:hover {
 	visibility: visible;
 }
 
-.apply-now-button:hover{
+.apply-now-button:hover {
 	background-color: #c7c7c7;
 }
 
-.footer-para{
+.footer-para {
 	font-family: 'Avenir LT Std 35 Light', sans-serif;
 	letter-spacing: 0.50px;
 	line-height: 1.9;
@@ -81,41 +83,41 @@ a:hover {
 	font-size: 16px;
 }
 
-.footer-num{
+.footer-num {
 	color: #a3aaba;
 }
 
-.footer-form-field{
+.footer-form-field {
 	background-color: #23324f;
 }
 
-.footer-form-field:focus{
+.footer-form-field:focus {
 	background-color: white;
 }
 
-.home-title{
+.home-title {
 	font-family: 'Lulo Clean One Bold', sans-serif;
 	font-size: 60px;
 }
 
-.words-mob{
+.words-mob {
 	display: none;
 	font-family: 'Avenir LT Std 35 Light', sans-serif;
 }
 
-.words-lap{
+.words-lap {
 	font-family: 'Avenir LT Std 35 Light', sans-serif;
 }
 
-.affil-mob{
+.affil-mob {
 	display: none;
 }
 
-.tiles-mob{
+.tiles-mob {
 	display: none;
 }
 
-.footer-mob{
+.footer-mob {
 	display: none;
 }
 
@@ -123,14 +125,19 @@ a:hover {
 	display: none;
 }
 
-.about-team-div{
+.about-team-div {
 	margin-right: 40px;
 	margin-left: 40px;
 }
 
-.team-list{
-		margin-right: 40px;
-	}
+.team-list {
+	margin-right: 40px;
+	padding-left: 20px
+}
+
+.about-team-card {
+	padding-left: 20px;
+}
 
 @media only screen and (max-width: 900px) {
 	.navToggleButt {
@@ -152,83 +159,85 @@ a:hover {
 	.about-card-desktop {
 		display: none;
 	}
-	
-	.story-grid{
+
+	.story-grid {
 		display: none;
 	}
-	
-	.story-grid-mob{
+
+	.story-grid-mob {
 		display: flex;
 	}
-	
-	.home-title{
+
+	.home-title {
 		font-size: 30px;
 	}
-	
-	.words-lap{
+
+	.words-lap {
 		display: none;
 	}
-	
-	.words-mob{
+
+	.words-mob {
 		display: block;
 	}
-	
-	.affil-mob{
+
+	.affil-mob {
 		display: block;
 	}
-	
-	.affil-lap{
+
+	.affil-lap {
 		display: none;
 	}
-	
-	.step-title{
+
+	.step-title {
 		font-size: 35px;
 		letter-spacing: -1px
 	}
-	
-	.footer-mob{
-		display:block;
-	}
-	
-	.footer-lap{
-		display: none;
-	}
-	
-	.tiles-mob{
+
+	.footer-mob {
 		display: block;
 	}
-	
-	.tiles-lap{
+
+	.footer-lap {
 		display: none;
 	}
-	
-	.team-butt-mob{
+
+	.tiles-mob {
+		display: block;
+	}
+
+	.tiles-lap {
+		display: none;
+	}
+
+	.team-butt-mob {
 		display: flex;
-}
-	.team-butt-div{
+	}
+
+	.team-butt-div {
 		display: none;
 	}
-	
-	.about-team-div{
+
+	.about-team-div {
 		margin-right: 0px;
 	}
 }
 
 
-@media only screen and (max-width: 450px){
-	.team-list-title{
+@media only screen and (max-width: 450px) {
+	.team-list-title {
 		font-size: 20px;
 	}
-	
-	.about-team-card{
+
+	.about-team-card {
 		padding-left: 10px;
 	}
-	
-	.team-list{
+
+	.team-list {
 		margin-right: 10px;
+		padding-left: 0px;
 	}
-	
-	.about-team-div{
+
+	.about-team-div {
 		margin-left: 30px;
 	}
 }
@@ -242,7 +251,7 @@ a:hover {
 
 
 
-.team-butt{
+.team-butt {
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-bottom: 10px
@@ -263,6 +272,4 @@ a:hover {
 
 
 
-.team-butt-div {
-	
-}
+.team-butt-div {}
