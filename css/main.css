@@ -93,7 +93,7 @@ a:hover {
 
 .home-title {
 	font-family: 'Lulo Clean One Bold', sans-serif;
-	font-size: 60px;
+	font-size: 50px;
 }
 
 .words-mob {
@@ -269,13 +269,134 @@ a:hover {
 
 
 
+.timeline-ul,
+.timeline-li {
+	margin: 0;
+	padding: 0;
+	font-family: 'Avenir LT Std 65 Medium' ,sans-serif;
+	color: #272424;
+	background-color: white;
+}
+
+
+
+.timeline {
+	position: relative;
+	margin: 0 auto;
+	width: 90%;
+
+}
+
+.timeline ul li {
+	margin-bottom: 50px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.point {
+	min-width: 20px;
+	height: 20px;
+	background-color: #febe49;
+	border-radius: 100%;
+	z-index: 2;
+	border: 3px #333333 solid;
+	position: relative;
+	left: 1px;
+}
+
+@media only screen and (max-width: 800px) {
+	.point {
+		min-width: 15px;
+		height: 15px;
+	}
+
+
+}
+
+@media only screen and (max-width: 650px) {
+
+
+
+	.point {
+		min-width: 12px;
+		height: 12px;
+	}
+
+}
+
+@media only screen and (max-width: 450px) {
+
+
+
+	.timeline-content {
+		padding: 10px !important;
+	}
+}
+
+.timeline ul li .timeline-content {
+	width: 50%;
+	padding: 0 20px;
+}
+
+.timeline ul li:nth-child(odd) .timeline-content {
+	padding-left: 0;
+}
+
+.timeline ul li:nth-child(odd) .date {
+	padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .timeline-content {
+	padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .date {
+	padding-left: 0;
+}
+
+.timeline ul li .date {
+	width: 50%;
+	padding: 0 20px;
+	font-weight: normal;
+}
+
+.timeline ul li .date h4 {
+	background-color: lightlue;
+	font-family: 'Avenir LT Std 65 Medium' ,sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+
+.timeline ul li:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.timeline ul li:nth-child(even) .date h4 {
+	float: right
+}
+
+.timeline::before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 3px;
+	left: 50%;
+	background-color: #333333;
+}
 
 
 
 
 
 
-/*#6cd8ef #febe49 #BFE5FB #83A8F0*/
+
+
+
+#6cd8ef #febe49 #BFE5FB #83A8F0
 
 
 
