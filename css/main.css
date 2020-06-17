@@ -139,6 +139,11 @@ a:hover {
 	padding-left: 20px;
 }
 
+.about-choose-mob{
+	display: none;
+}
+
+
 @media only screen and (max-width: 900px) {
 	.navToggleButt {
 		display: flex;
@@ -220,6 +225,14 @@ a:hover {
 	.about-team-div {
 		margin-right: 0px;
 	}
+	
+	.about-choose-mob{
+		display: block;
+	}
+	
+	.about-choose-lap{
+		display: none;
+	}
 }
 
 
@@ -273,3 +286,13 @@ a:hover {
 
 
 .team-butt-div {}
+
+
+
+.team-photo {
+	transition-duration: 0.5s;
+}
+
+.team-photo:hover{
+	opacity: 70%;
+}

@@ -24,7 +24,7 @@
 					<a class="uk-navbar-item uk-logo" href="/"><img data-src="img/logo-small.webp" width="104" height="104" alt="logo" uk-img></a>
 
 					<ul class="uk-navbar-nav">
-						<li><a href="#" class="navbarLink"><span class="navbarText">About Us</span></a></li>
+						<li><a href="#" class="navbarLink"><span class="navbarText">Our Team</span></a></li>
 						<li>
 							<a href="#" class="navbarLink"><span class="navbarText">Services</span></a>
 							<div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
@@ -81,7 +81,7 @@
 				<a class="uk-navbar-item uk-logo" href="#"><img data-src="img/logo-small.webp" width="110" height="110" alt="logo" style="border-radius: 21px; margin-bottom: 20px" uk-img></a>
 				<ul class="uk-nav uk-nav-default navbarText">
 					<li class="uk-active"><a href="/">Home</a></li>
-					<li><a href="#">About Us</a></li>
+					<li><a href="#">Our Team</a></li>
 					<li class="uk-parent">
 						<a href="#">Services</a>
 						<ul class="uk-nav-sub">
@@ -112,7 +112,7 @@
 	</header>
 
 
-<!--
+	<!--
 
 	<div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: slide; autoplay: true; pause-on-hover: true; autoplay-interval: 6000;" style="margin-bottom: 70px">
 
@@ -148,13 +148,20 @@
 
 	</div>
 -->
-	
-	<div style="padding: 40px; background-color: green; margin-bottom: 70px">
-	
+
+	<div class="uk-height-medium uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200" style="background-image: url('img/slideshow/slideshow1.jpg'); margin-bottom: 40px">
+
+		<h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" style="font-family: 'Lulo Clean One Bold', sans-serif">Our Team</h1>
+
 	</div>
 
 
+	<div class="uk-text-center about-choose-mob">
+		<h3 class="uk-margin-small-bottom" style="font-family: 'Avenir LT Std 65 Medium'">Choose a sub-team</h3>
+	</div>
+
 	<div class="uk-flex uk-flex-column team-butt-mob uk-margin-small-bottom" uk-switcher="animation: uk-animation-fade; toggle: > *;connect: .team-list">
+
 		<button class="uk-button uk-button-default team-butt" type="button">Management</button>
 		<button class="uk-button uk-button-default team-butt" type="button">Communications</button>
 		<button class="uk-button uk-button-default team-butt" type="button">Illustrations</button>
@@ -185,7 +192,7 @@
 						<a href="#raghav" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/raghav-edit.jpg" data-width="233" data-height="303" alt="raghav" uk-img>
+									<img class="team-photo" data-src="img/team/raghav-edit.jpg" data-width="233" data-height="303" alt="raghav" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove-horizontal">
 									<h3 class="team-list-title uk-card-title uk-margin-remove" style="font-family: 'Avenir LT Std 65 Medium'">Raghav Ruia</h3>
@@ -207,7 +214,7 @@
 						<a href="#yohan" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/yohan-edit.jpg" data-width="233" data-height="303" alt="yohan" uk-img>
+									<img class="team-photo" data-src="img/team/yohan-edit.jpg" data-width="233" data-height="303" alt="yohan" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove-horizontal">
 									<h3 class="team-list-title uk-card-title uk-margin-remove" style="font-family: 'Avenir LT Std 65 Medium'">Yohan Khan</h3>
@@ -229,7 +236,7 @@
 						<a href="#piyush" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/piyush-edit.jpg" data-width="233" data-height="303" alt="piyush" uk-img>
+									<img class="team-photo" data-src="img/team/piyush-edit.jpg" data-width="233" data-height="303" alt="piyush" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove-horizontal">
 									<h3 class="team-list-title uk-card-title uk-margin-remove" style="font-family: 'Avenir LT Std 65 Medium'">Piyush Pahuja</h3>
@@ -251,7 +258,7 @@
 						<a href="#khushi" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/khushi-edit.jpg" data-width="233" data-height="303" alt="khushi" uk-img>
+									<img class="team-photo" data-src="img/team/khushi-edit.jpg" data-width="233" data-height="303" alt="khushi" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove-horizontal uk-padding-remove-bottom">
 									<h3 class="team-list-title uk-card-title uk-margin-remove" style="font-family: 'Avenir LT Std 65 Medium'">Khushi Munjani</h3>
@@ -280,14 +287,14 @@
 
 			<li>
 				<!--Communications-->
-				
+
 				<div class="uk-child-width-1-4@l uk-child-width-1-3@m uk-child-width-1-2 uk-text-center" uk-grid>
 
 					<div class="about-team-card">
 						<a href="#samiha" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/samiha-edit.jpg" data-width="233" data-height="303" alt="samiha" uk-img>
+									<img class="team-photo" data-src="img/team/samiha-edit.jpg" data-width="233" data-height="303" alt="samiha" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove">
 									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Samiha Gupta</h3>
@@ -309,7 +316,7 @@
 						<a href="#nysha" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/nysha-edit.jpg" data-width="233" data-height="303" alt="nysha" uk-img>
+									<img class="team-photo" data-src="img/team/nysha-edit.jpg" data-width="233" data-height="303" alt="nysha" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove">
 									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Nysha Seksaria</h3>
@@ -331,7 +338,7 @@
 						<a href="#tanyasheth" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/tanyasheth-edit.jpg" data-width="233" data-height="303" alt="tanyasheth" uk-img>
+									<img class="team-photo" data-src="img/team/tanyasheth-edit.jpg" data-width="233" data-height="303" alt="tanyasheth" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove">
 									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Tanya Sheth</h3>
@@ -347,13 +354,13 @@
 							</div>
 						</div>
 					</div>
-					
-					
+
+
 					<div class="about-team-card">
 						<a href="#aahana" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/aahana-edit.jpg" data-width="233" data-height="303" alt="aahana" uk-img>
+									<img class="team-photo" data-src="img/team/aahana-edit.jpg" data-width="233" data-height="303" alt="aahana" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove">
 									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Aahana Barmecha</h3>
@@ -369,13 +376,13 @@
 							</div>
 						</div>
 					</div>
-					
-					
+
+
 					<div class="about-team-card">
 						<a href="#chinmay" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/chinmay-edit.jpg" data-width="233" data-height="303" alt="chinmay" uk-img>
+									<img class="team-photo" data-src="img/team/chinmay-edit.jpg" data-width="233" data-height="303" alt="chinmay" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove">
 									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Chinmay Gupta</h3>
@@ -395,22 +402,22 @@
 				</div>
 
 
-				
+
 			</li>
 
 
-			
+
 
 			<li>
 				<!--Illustrations-->
-				
+
 				<div class="uk-child-width-1-4@l uk-child-width-1-3@m uk-child-width-1-2 uk-text-center" uk-grid>
 
 					<div class="about-team-card">
 						<a href="#aarti" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/aarti-edit.jpg" data-width="233" data-height="303" alt="aarti" uk-img>
+									<img class="team-photo" data-src="img/team/aarti-edit.jpg" data-width="233" data-height="303" alt="aarti" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove">
 									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Aarti Modi</h3>
@@ -432,7 +439,7 @@
 						<a href="#tanishka" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/tanishka-edit.jpg" data-width="233" data-height="303" alt="tanishka" uk-img>
+									<img class="team-photo" data-src="img/team/tanishka-edit.jpg" data-width="233" data-height="303" alt="tanishka" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove">
 									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Tanishka Singhania</h3>
@@ -454,7 +461,7 @@
 						<a href="#rohandoshi" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/rohandoshi-edit.jpg" data-width="233" data-height="303" alt="rohandoshi" uk-img>
+									<img class="team-photo" data-src="img/team/rohandoshi-edit.jpg" data-width="233" data-height="303" alt="rohandoshi" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove">
 									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Rohan Doshi</h3>
@@ -473,95 +480,327 @@
 
 
 					<div class="about-team-card">
-						<a href="#tanyasheth" uk-toggle>
+						<a href="#divyansh" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/raghav-edit.jpg" data-width="233" data-height="303" alt="tanyasheth" uk-img>
+									<img class="team-photo" data-src="img/team/divyansh-edit.jpg" data-width="233" data-height="303" alt="divyansh" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove">
-									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Tanya Sheth</h3>
+									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Divyansh Mehta</h3>
 									<p class="uk-margin-small-top uk-margin-bottom"></p>
 								</div>
 							</div>
 						</a>
-						<div id="tanyasheth" uk-modal>
+						<div id="divyansh" uk-modal>
 							<div class="uk-modal-dialog uk-modal-body" style="font-family: 'Avenir LT Std 45 Book'">
 								<button class="uk-modal-close-default" type="button" uk-close></button>
-								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Tanya Sheth <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Communications</span></h2>
-								<p style="line-height: 2em">Coming Soon.</p>
+								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Divyansh Mehta <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Illustrations</span></h2>
+								<p style="line-height: 2em"><span style="font-family: 'Avenir LT Std 65 Medium'">Specialty: </span>Art, Management, Cricket, Leadership<br><span style="font-family: 'Avenir LT Std 65 Medium'">Interests: </span>Economics, Physics, Psychology, Photography<br><span style="font-family: 'Avenir LT Std 65 Medium'">Achievement: </span>Physics Award (Grade 10), Cambridge Gold Certificate (Chemistry, Pilot Project)</p>
 							</div>
 						</div>
 					</div>
-					
-					
+
+
 					<div class="about-team-card">
-						<a href="#aahana" uk-toggle>
+						<a href="#yashvi" uk-toggle>
 							<div class="uk-card uk-card-default">
 								<div class="uk-card-media-top">
-									<img data-src="img/team/raghav-edit.jpg" data-width="233" data-height="303" alt="aahana" uk-img>
+									<img class="team-photo" data-src="img/team/yashvi-edit.jpg" data-width="233" data-height="303" alt="yashvi" uk-img>
 								</div>
 								<div class="uk-card-body uk-padding-remove">
-									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Aahana Barmecha</h3>
+									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Yashvi Agrawal</h3>
 									<p class="uk-margin-small-top uk-margin-bottom"></p>
 								</div>
 							</div>
 						</a>
-						<div id="aahana" uk-modal>
+						<div id="yashvi" uk-modal>
 							<div class="uk-modal-dialog uk-modal-body" style="font-family: 'Avenir LT Std 45 Book'">
 								<button class="uk-modal-close-default" type="button" uk-close></button>
-								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Aahana Barmecha <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Communications</span></h2>
-								<p style="line-height: 2em">Coming Soon.</p>
+								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Yashvi Agrawal <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Illustrations</span></h2>
+								<p style="line-height: 2em"><span style="font-family: 'Avenir LT Std 65 Medium'">Specialty: </span>Photoshop, Art<br><span style="font-family: 'Avenir LT Std 65 Medium'">Interests: </span>Art, Dance, Computer Science</p>
 							</div>
 						</div>
 					</div>
-					
-					
-					<div class="about-team-card">
-						<a href="#chinmay" uk-toggle>
-							<div class="uk-card uk-card-default">
-								<div class="uk-card-media-top">
-									<img data-src="img/team/raghav-edit.jpg" data-width="233" data-height="303" alt="chinmay" uk-img>
-								</div>
-								<div class="uk-card-body uk-padding-remove">
-									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Chinmay Gupta</h3>
-									<p class="uk-margin-small-top uk-margin-bottom"></p>
-								</div>
-							</div>
-						</a>
-						<div id="chinmay" uk-modal>
-							<div class="uk-modal-dialog uk-modal-body" style="font-family: 'Avenir LT Std 45 Book'">
-								<button class="uk-modal-close-default" type="button" uk-close></button>
-								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Chinmay Gupta <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Communications</span></h2>
-								<p style="line-height: 2em"><span style="font-family: 'Avenir LT Std 65 Medium'">Specialty:</span> Cricket and Golf<br><span style="font-family: 'Avenir LT Std 65 Medium'">Interests: </span>Business and Debate</p>
-							</div>
-						</div>
-					</div>
+
 
 				</div>
 
 
-				
+
 			</li>
 
 
-			
-			
+
+
+
+
 			<li>
+				<!--Logistics and events-->
+
+				<div class="uk-child-width-1-4@l uk-child-width-1-3@m uk-child-width-1-2 uk-text-center" uk-grid>
+
+					<div class="about-team-card">
+						<a href="#druhi" uk-toggle>
+							<div class="uk-card uk-card-default">
+								<div class="uk-card-media-top">
+									<img class="team-photo" data-src="img/team/druhi-edit.jpg" data-width="233" data-height="303" alt="druhi" uk-img>
+								</div>
+								<div class="uk-card-body uk-padding-remove">
+									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Druhi Dangi</h3>
+									<p class="uk-margin-small-top uk-margin-left uk-margin-right uk-margin-bottom">Head of Logistics &amp; Events</p>
+								</div>
+							</div>
+						</a>
+						<div id="druhi" uk-modal>
+							<div class="uk-modal-dialog uk-modal-body" style="font-family: 'Avenir LT Std 45 Book'">
+								<button class="uk-modal-close-default" type="button" uk-close></button>
+								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Druhi Dangi <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Head of Logistics &amp; Events</span></h2>
+								<p>Druhi Dangi, a highly trained Kathak Dancer, and has performed at multiple venues including the NCPA Tata Theatre. She studies that BD Somani International School and is in grade 12. Being a high academic achiever as well as a performing artist, druhi manages loads of things together. This rare quality of efficiently managing multiple things is what makes Druhi the perfect fit for the role of head of logistics and events. At the StudentHouse, Druhi will oversee all our logistics and events making sure that everything is perfect.</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="about-team-card">
+						<a href="#prerna" uk-toggle>
+							<div class="uk-card uk-card-default">
+								<div class="uk-card-media-top">
+									<img class="team-photo" data-src="img/team/prerna-edit.jpg" data-width="233" data-height="303" alt="prerna" uk-img>
+								</div>
+								<div class="uk-card-body uk-padding-remove">
+									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Prerna Ghosh</h3>
+									<p class="uk-margin-small-top uk-margin-bottom"></p>
+								</div>
+							</div>
+						</a>
+						<div id="prerna" uk-modal>
+							<div class="uk-modal-dialog uk-modal-body" style="font-family: 'Avenir LT Std 45 Book'">
+								<button class="uk-modal-close-default" type="button" uk-close></button>
+								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Prerna Ghosh <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Logistics &amp; Events</span></h2>
+								<p style="line-height: 2em"><span style="font-family: 'Avenir LT Std 65 Medium'">Specialty: </span>Violin, Ballet<br><span style="font-family: 'Avenir LT Std 65 Medium'">Interests: </span>Table tennis, Science<br><span style="font-family: 'Avenir LT Std 65 Medium'">Achievement: </span>Science Award (Grade 10), English Award (Grade 10)</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="about-team-card">
+						<a href="#krisha" uk-toggle>
+							<div class="uk-card uk-card-default">
+								<div class="uk-card-media-top">
+									<img class="team-photo" data-src="img/team/krisha-edit.jpg" data-width="233" data-height="303" alt="krisha" uk-img>
+								</div>
+								<div class="uk-card-body uk-padding-remove">
+									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Krisha Agarwal</h3>
+									<p class="uk-margin-small-top uk-margin-bottom"></p>
+								</div>
+							</div>
+						</a>
+						<div id="krisha" uk-modal>
+							<div class="uk-modal-dialog uk-modal-body" style="font-family: 'Avenir LT Std 45 Book'">
+								<button class="uk-modal-close-default" type="button" uk-close></button>
+								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Krisha Agarwal <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Logistics &amp; Events</span></h2>
+								<p style="line-height: 2em"><span style="font-family: 'Avenir LT Std 65 Medium'">Specialty: </span>Event management, Writing<br><span style="font-family: 'Avenir LT Std 65 Medium'">Interests: </span>Sciences, Baking, Volunteering<br><span style="font-family: 'Avenir LT Std 65 Medium'">Achievement: </span>Geography Award (Grade 9)</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="about-team-card">
+						<a href="#eesha" uk-toggle>
+							<div class="uk-card uk-card-default">
+								<div class="uk-card-media-top">
+									<img class="team-photo" data-src="img/team/eesha-edit.jpg" data-width="233" data-height="303" alt="eesha" uk-img>
+								</div>
+								<div class="uk-card-body uk-padding-remove">
+									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Eesha Chabbra</h3>
+									<p class="uk-margin-small-top uk-margin-bottom"></p>
+								</div>
+							</div>
+						</a>
+						<div id="eesha" uk-modal>
+							<div class="uk-modal-dialog uk-modal-body" style="font-family: 'Avenir LT Std 45 Book'">
+								<button class="uk-modal-close-default" type="button" uk-close></button>
+								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Eesha Chabbra <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Logistics &amp; Events</span></h2>
+								<p style="line-height: 2em">Coming soon.</p>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+
 
 			</li>
+
+
+
+
+
+
+			<li>
+				<!--Marketing-->
+
+				<div class="uk-child-width-1-4@l uk-child-width-1-3@m uk-child-width-1-2 uk-text-center" uk-grid>
+
+					<div class="about-team-card">
+						<a href="#mokshali" uk-toggle>
+							<div class="uk-card uk-card-default">
+								<div class="uk-card-media-top">
+									<img class="team-photo" data-src="img/team/mokshali-edit.jpg" data-width="233" data-height="303" alt="mokshali" uk-img>
+								</div>
+								<div class="uk-card-body uk-padding-remove">
+									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Mokshali Raman</h3>
+									<p class="uk-margin-small-top uk-margin-left uk-margin-right uk-margin-bottom">Head of Marketing</p>
+								</div>
+							</div>
+						</a>
+						<div id="mokshali" uk-modal>
+							<div class="uk-modal-dialog uk-modal-body" style="font-family: 'Avenir LT Std 45 Book'">
+								<button class="uk-modal-close-default" type="button" uk-close></button>
+								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Mokshali Raman <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Head of Marketing</span></h2>
+								<p>Mokshali is a grade 12 student, studying at BD Somani International School. With excellent marketing skills and great business acumen, Mokshali serves her purpose as the head of marketing for The StudentHouse efficiently and effectively. Her interests are widespread, from a lover of books to a perseverant learner of math, Mokshali envisages it all.</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="about-team-card">
+						<a href="#rishabh" uk-toggle>
+							<div class="uk-card uk-card-default">
+								<div class="uk-card-media-top">
+									<img class="team-photo" data-src="img/team/rishabh-edit.jpg" data-width="233" data-height="303" alt="rishabh" uk-img>
+								</div>
+								<div class="uk-card-body uk-padding-remove">
+									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Rishabh Shah</h3>
+									<p class="uk-margin-small-top uk-margin-bottom"></p>
+								</div>
+							</div>
+						</a>
+						<div id="rishabh" uk-modal>
+							<div class="uk-modal-dialog uk-modal-body" style="font-family: 'Avenir LT Std 45 Book'">
+								<button class="uk-modal-close-default" type="button" uk-close></button>
+								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Rishabh Shah <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Marketing</span></h2>
+								<p style="line-height: 2em">Coming soon.</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="about-team-card">
+						<a href="#keisha" uk-toggle>
+							<div class="uk-card uk-card-default">
+								<div class="uk-card-media-top">
+									<img class="team-photo" data-src="img/team/keisha-edit.jpg" data-width="233" data-height="303" alt="keisha" uk-img>
+								</div>
+								<div class="uk-card-body uk-padding-remove">
+									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Keisha Savani</h3>
+									<p class="uk-margin-small-top uk-margin-bottom"></p>
+								</div>
+							</div>
+						</a>
+						<div id="keisha" uk-modal>
+							<div class="uk-modal-dialog uk-modal-body" style="font-family: 'Avenir LT Std 45 Book'">
+								<button class="uk-modal-close-default" type="button" uk-close></button>
+								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Keisha Savani <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Marketing</span></h2>
+								<p style="line-height: 2em">Coming soon.</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="about-team-card">
+						<a href="#yahna" uk-toggle>
+							<div class="uk-card uk-card-default">
+								<div class="uk-card-media-top">
+									<img class="team-photo" data-src="img/team/yahna-edit.jpg" data-width="233" data-height="303" alt="yahna" uk-img>
+								</div>
+								<div class="uk-card-body uk-padding-remove">
+									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Yahna Mehta</h3>
+									<p class="uk-margin-small-top uk-margin-bottom"></p>
+								</div>
+							</div>
+						</a>
+						<div id="yahna" uk-modal>
+							<div class="uk-modal-dialog uk-modal-body" style="font-family: 'Avenir LT Std 45 Book'">
+								<button class="uk-modal-close-default" type="button" uk-close></button>
+								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Yahna Mehta <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Marketing</span></h2>
+								<p style="line-height: 2em"><span style="font-family: 'Avenir LT Std 65 Medium'">Interests: </span>Sports, Business, PR</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="about-team-card">
+						<a href="#vidhi" uk-toggle>
+							<div class="uk-card uk-card-default">
+								<div class="uk-card-media-top">
+									<img class="team-photo" data-src="img/team/vidhi-edit.jpg" data-width="233" data-height="303" alt="vidhi" uk-img>
+								</div>
+								<div class="uk-card-body uk-padding-remove">
+									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Vidhi Sachade</h3>
+									<p class="uk-margin-small-top uk-margin-bottom"></p>
+								</div>
+							</div>
+						</a>
+						<div id="vidhi" uk-modal>
+							<div class="uk-modal-dialog uk-modal-body" style="font-family: 'Avenir LT Std 45 Book'">
+								<button class="uk-modal-close-default" type="button" uk-close></button>
+								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Vidhi Sachade <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Marketing</span></h2>
+								<p style="line-height: 2em"><span style="font-family: 'Avenir LT Std 65 Medium'">Specialty: </span>Writing, Marketing<br><span style="font-family: 'Avenir LT Std 65 Medium'">Interests: </span>Art, English</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="about-team-card">
+						<a href="#saniya" uk-toggle>
+							<div class="uk-card uk-card-default">
+								<div class="uk-card-media-top">
+									<img class="team-photo" data-src="img/team/saniya-edit.jpg" data-width="233" data-height="303" alt="saniya" uk-img>
+								</div>
+								<div class="uk-card-body uk-padding-remove">
+									<h3 class="team-list-title uk-card-title uk-margin-remove-bottom uk-margin-top" style="font-family: 'Avenir LT Std 65 Medium'">Saniya Dossa</h3>
+									<p class="uk-margin-small-top uk-margin-bottom"></p>
+								</div>
+							</div>
+						</a>
+						<div id="saniya" uk-modal>
+							<div class="uk-modal-dialog uk-modal-body" style="font-family: 'Avenir LT Std 45 Book'">
+								<button class="uk-modal-close-default" type="button" uk-close></button>
+								<h2 class="uk-modal-title" style="font-family: 'Avenir LT Std 65 Medium'">Saniya Dossa <span style="font-family: 'Avenir LT Std 45 Book'; font-size: 20px"> Marketing</span></h2>
+								<p style="line-height: 2em"><span style="font-family: 'Avenir LT Std 65 Medium'">Specialty: </span>Theatre Production<br><span style="font-family: 'Avenir LT Std 65 Medium'">Interests: </span>Psycology, Badminton</p>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+
+
+			</li>
+
+
+
+
 		</ul>
 
+		<div class="uk-width-1-5">
+			<div class="uk-text-center about-choose-lap">
+				<h3 class="uk-margin-small-bottom" style="font-family: 'Avenir LT Std 65 Medium'">Choose a sub-team</h3>
+			</div>
+			<div class=" uk-flex uk-flex-column team-butt-div" uk-switcher="animation: uk-animation-fade; toggle: > *;connect: .team-list">
 
-		<div class="uk-width-1-5 uk-flex uk-flex-column team-butt-div" uk-switcher="animation: uk-animation-fade; toggle: > *;connect: .team-list">
-			<button class="uk-button uk-button-default team-butt" type="button">Management</button>
-			<button class="uk-button uk-button-default team-butt" type="button">Communications</button>
-			<button class="uk-button uk-button-default team-butt" type="button">Illustrations</button>
-			<button class="uk-button uk-button-default team-butt" type="button">Logistics and Events</button>
-			<button class="uk-button uk-button-default team-butt" type="button">Marketing</button>
+				<button class="uk-button uk-button-default team-butt" type="button">Management</button>
+				<button class="uk-button uk-button-default team-butt" type="button">Communications</button>
+				<button class="uk-button uk-button-default team-butt" type="button">Illustrations</button>
+				<button class="uk-button uk-button-default team-butt" type="button">Logistics and Events</button>
+				<button class="uk-button uk-button-default team-butt" type="button">Marketing</button>
 
 
+			</div>
 		</div>
-
 
 
 	</div>
