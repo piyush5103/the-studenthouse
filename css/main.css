@@ -119,6 +119,14 @@ a:hover {
 	display: none;
 }
 
+.team-butt-mob {
+	display: none;
+}
+
+.about-team-div{
+	margin-right: 40px;
+}
+
 @media only screen and (max-width: 900px) {
 	.navToggleButt {
 		display: flex;
@@ -149,7 +157,7 @@ a:hover {
 	}
 	
 	.home-title{
-		font-size: 42px;
+		font-size: 30px;
 	}
 	
 	.words-lap{
@@ -188,6 +196,17 @@ a:hover {
 	.tiles-lap{
 		display: none;
 	}
+	
+	.team-butt-mob{
+		display: flex;
+}
+	.team-butt-div{
+		display: none;
+	}
+	
+	.about-team-div{
+		margin-right: 0px;
+	}
 }
 
 
@@ -202,4 +221,27 @@ a:hover {
 
 
 
-#6cd8ef #febe49 #BFE5FB #83A8F0
+.team-butt{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 10px
+}
+
+
+
+
+
+
+
+
+
+
+/*#6cd8ef #febe49 #BFE5FB #83A8F0*/
+
+
+
+
+
+.team-butt-div {
+	
+}
