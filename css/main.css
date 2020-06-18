@@ -15,7 +15,7 @@ a:hover {
 .navbarText {
 	font-family: Montserrat, sans-serif;
 	letter-spacing: 0.25px;
-	font-size: 15px
+	font-size: 15px;
 }
 
 .navMenuFull {
@@ -425,4 +425,10 @@ a:hover {
 
 .team-photo:hover{
 	opacity: 70%;
+}
+
+.navMenuText {
+	font-family: Montserrat, sans-serif;
+	letter-spacing: 0.25px;
+	font-size: 22px
 }
