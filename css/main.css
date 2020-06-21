@@ -564,3 +564,22 @@ a:hover {
 	font-size: 18px;
 	text-align: justify;
 }
+
+.contact-page-form {
+	margin: 0% 14%;
+	padding-bottom: 40px
+
+}
+
+.contact-page-submit {
+	font-size: 18px; background-color: rgba(254, 97, 97, 1);border-radius: 10px; color: white;
+	padding-top: 2px;
+	padding-left: 45px;
+	padding-right: 45px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.contact-page-submit:hover{
+	background-color: #c7c7c7;
+}
