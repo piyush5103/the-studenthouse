@@ -54,6 +54,16 @@ a:hover {
 	transition: background-color 0.35s;
 }
 
+.create-button {
+	border-radius: 100px;
+	background-color: rgba(254, 97, 97, 1);
+	padding-top: 20px;
+	padding-bottom: 18px;
+	padding-left: 50px;
+	padding-right: 50px;
+	transition: background-color 0.35s;
+}
+
 .story-grid-mob {
 	display: none;
 	margin-bottom: 50px;
@@ -68,6 +78,10 @@ a:hover {
 }
 
 .apply-now-button:hover {
+	background-color: #c7c7c7;
+}
+
+.create-button:hover {
 	background-color: #c7c7c7;
 }
 
@@ -152,6 +166,13 @@ a:hover {
 	margin-left: 40px;
 }
 
+@media only screen and (min-width: 900px) {
+
+	.timeline-card-text {
+		letter-spacing: 0.25px;
+		line-height: 1.8;
+	}
+}
 
 @media only screen and (max-width: 900px) {
 	.navToggleButt {
@@ -187,7 +208,7 @@ a:hover {
 	}
 
 	.timeline-number-title {
-		font-size: 50px;
+		display: none;
 	}
 
 	.words-lap {
@@ -250,6 +271,14 @@ a:hover {
 	.mentor-div {
 		margin-right: 0px;
 	}
+
+	.timeline-circle {
+		display: none;
+	}
+
+
+	
+	
 }
 
 
@@ -449,7 +478,6 @@ a:hover {
 .timeline-card-text {
 	font-family: 'Avenir LT Std 35 Light', sans-serif;
 	letter-spacing: 0.25px;
-	line-height: 1.8;
 	text-align: justify;
 	font-size: 19px;
 	margin-top: 0px;
@@ -469,3 +497,5 @@ a:hover {
 .timeline-card-illustration {
 	margin: 0px;
 }
+
+
