@@ -281,8 +281,8 @@ a:hover {
 	}
 
 
-	
-	
+
+
 }
 
 
@@ -290,7 +290,7 @@ a:hover {
 	.team-list-title {
 		font-size: 20px;
 	}
-	
+
 	.project-blurb-title {
 		font-size: 20px;
 	}
@@ -298,7 +298,7 @@ a:hover {
 	.about-team-card {
 		padding-left: 10px;
 	}
-	
+
 	.project-blurb-card {
 		padding-left: 10px;
 	}
@@ -529,11 +529,12 @@ a:hover {
 	margin-bottom: 8px;
 }
 
-.project-blurb-title{
+.project-blurb-title {
 	font-family: 'Avenir LT Std 65 Medium';
 	margin-bottom: 0px;
 	margin-top: 20px;
 }
+
 .project-blurb-button {
 	font-family: 'Avenir LT Std 35 Light', sans-serif;
 	text-transform: capitalize;
@@ -541,4 +542,25 @@ a:hover {
 
 .project-blurb-logo-div {
 	min-height: 220px;
+}
+
+.faq-accordion {
+	margin: 0% 14%;
+	padding-bottom: 40px
+}
+
+.faq-question {
+	font-family: 'Avenir LT Std 65 Medium', sans-serif;
+	font-size: 22px
+}
+
+.faq-question:focus {
+	color: black;
+}
+
+.faq-answer {
+	font-family: 'Avenir LT Std 45 Book';
+	line-height: 2;
+	font-size: 18px;
+	text-align: justify;
 }
