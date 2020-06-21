@@ -157,6 +157,10 @@ a:hover {
 	padding-left: 20px;
 }
 
+.project-blurb-card {
+	padding-left: 20px;
+}
+
 .about-choose-mob {
 	display: none;
 }
@@ -286,8 +290,16 @@ a:hover {
 	.team-list-title {
 		font-size: 20px;
 	}
+	
+	.project-blurb-title {
+		font-size: 20px;
+	}
 
 	.about-team-card {
+		padding-left: 10px;
+	}
+	
+	.project-blurb-card {
 		padding-left: 10px;
 	}
 
@@ -458,7 +470,16 @@ a:hover {
 	transition-duration: 0.5s;
 }
 
+.project-blurb-logo {
+	width: 220px;
+	transition-duration: 0.5s;
+}
+
 .team-photo:hover {
+	opacity: 70%;
+}
+
+.project-blurb-logo:hover {
 	opacity: 70%;
 }
 
@@ -499,3 +520,25 @@ a:hover {
 }
 
 
+
+
+
+.project-blurb {
+	font-family: 'Avenir LT Std 45 Book', sans-serif;
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+
+.project-blurb-title{
+	font-family: 'Avenir LT Std 65 Medium';
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+.project-blurb-button {
+	font-family: 'Avenir LT Std 35 Light', sans-serif;
+	text-transform: capitalize;
+}
+
+.project-blurb-logo-div {
+	min-height: 220px;
+}
