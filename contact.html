@@ -164,6 +164,9 @@
 
 		<script type="text/javascript">
 			var submitted = false;
+			var footerLapSubmitted = false;
+			var footerSubmitted = false;
+
 		</script>
 		<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/thankyou.html';}"></iframe>
 
@@ -240,12 +243,9 @@
 
 						<div class="uk-width-2-3">
 
-							<script type="text/javascript">
-								var footerLapSubmitted = false;
-							</script>
-							<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(footerLapSubmitted)  {window.location='/thankyou.html';}"></iframe>
 
-							<form class="uk-margin-small-top uk-width-4-5" style="font-family: 'Avenir LT Std 35 Light', sans-serif" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe61SN7BvRNFUueUCR8oSmN0xsmhxVVeU0xLqntLeyfw9jqog/formResponse" method="post" target="hidden_iframe" onsubmit="footerLapSubmitted=true;">
+
+							<form class="uk-margin-small-top uk-width-4-5" style="font-family: 'Avenir LT Std 35 Light', sans-serif" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe61SN7BvRNFUueUCR8oSmN0xsmhxVVeU0xLqntLeyfw9jqog/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 
 								<div class="uk-margin-small">
 									<input name="entry.1952087121" class="uk-input uk-form-small footer-form-field" type="text" placeholder="Name">
@@ -303,12 +303,9 @@
 				<div>
 
 
-					<script type="text/javascript">
-						var footerSubmitted = false;
-					</script>
-					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(footerSubmitted)  {window.location='/thankyou.html';}"></iframe>
 
-					<form class="uk-margin-small-top" style="font-family: 'Avenir LT Std 35 Light', sans-serif" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe61SN7BvRNFUueUCR8oSmN0xsmhxVVeU0xLqntLeyfw9jqog/formResponse" method="post" target="hidden_iframe" onsubmit="footerSubmitted=true;">
+
+					<form class="uk-margin-small-top" style="font-family: 'Avenir LT Std 35 Light', sans-serif" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe61SN7BvRNFUueUCR8oSmN0xsmhxVVeU0xLqntLeyfw9jqog/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 
 						<div class="uk-margin-small">
 							<input name="entry.1952087121" class="uk-input uk-form-small footer-form-field" type="text" placeholder="Name">
@@ -349,4 +346,6 @@
 
 
 
-</body></html>
+</body>
+
+</html>
