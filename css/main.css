@@ -583,3 +583,17 @@ a:hover {
 .contact-page-submit:hover{
 	background-color: #c7c7c7;
 }
+
+.contact-page-mgmt-name {
+	margin-bottom: 6px;
+	font-family: 'Avenir LT Std 65 Medium';
+}
+
+.contact-page-mgmt-detail {
+	margin: 0px;
+	font-family: 'Avenir LT Std 45 Book';
+}
+
+.contact-card {
+	padding: 40px 0px;
+}
