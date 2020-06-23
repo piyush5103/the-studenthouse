@@ -190,6 +190,10 @@ a:hover {
 		letter-spacing: 0.25px;
 		line-height: 1.8;
 	}
+
+	.project-page-logo-mob {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 900px) {
@@ -244,8 +248,8 @@ a:hover {
 	.affil-lap {
 		display: none;
 	}
-	
-	.project-page-text-card-lap{
+
+	.project-page-text-card-lap {
 		display: none;
 	}
 
@@ -298,6 +302,11 @@ a:hover {
 		display: none;
 	}
 
+	.project-page-logo-mob {
+		display: block;
+		border-radius: 20px;
+		margin-bottom: 30px;
+	}
 
 
 
@@ -586,11 +595,13 @@ a:hover {
 .contact-page-form {
 	margin: 0% 14%;
 	padding-bottom: 40px
-
 }
 
 .contact-page-submit {
-	font-size: 18px; background-color: rgba(254, 97, 97, 1);border-radius: 10px; color: white;
+	font-size: 18px;
+	background-color: rgba(254, 97, 97, 1);
+	border-radius: 10px;
+	color: white;
 	padding-top: 2px;
 	padding-left: 45px;
 	padding-right: 45px;
@@ -598,7 +609,7 @@ a:hover {
 	margin-bottom: 0px;
 }
 
-.contact-page-submit:hover{
+.contact-page-submit:hover {
 	background-color: #c7c7c7;
 }
 
@@ -618,9 +629,10 @@ a:hover {
 
 .project-page-logo {
 	margin-left: 20px;
-	width: 276px;
 	border-radius: 20px;
 }
+
+
 
 .project-page-founders-image {
 	margin-bottom: 40px;
