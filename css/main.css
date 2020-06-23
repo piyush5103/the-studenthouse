@@ -196,9 +196,21 @@ a:hover {
 	}
 }
 
+
+.project-title-mob{
+	display: none;
+}
 @media only screen and (max-width: 900px) {
 	.navToggleButt {
 		display: flex;
+	}
+	
+	.project-title-mob{
+		display: block;
+	}
+	
+	.project-title-lap{
+		display: none;
 	}
 
 	.navMenuFull {
