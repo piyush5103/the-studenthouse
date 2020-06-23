@@ -54,6 +54,16 @@ a:hover {
 	transition: background-color 0.35s;
 }
 
+.project-page-apply-now {
+	border-radius: 100px;
+	background-color: rgba(254, 97, 97, 1);
+	padding-top: 22px;
+	padding-bottom: 20px;
+	padding-left: 80px;
+	padding-right: 80px;
+	transition: background-color 0.35s;
+}
+
 .create-button {
 	border-radius: 100px;
 	background-color: rgba(254, 97, 97, 1);
@@ -78,6 +88,10 @@ a:hover {
 }
 
 .apply-now-button:hover {
+	background-color: #c7c7c7;
+}
+
+.project-page-apply-now:hover {
 	background-color: #c7c7c7;
 }
 
@@ -228,6 +242,10 @@ a:hover {
 	}
 
 	.affil-lap {
+		display: none;
+	}
+	
+	.project-page-text-card-lap{
 		display: none;
 	}
 
@@ -596,4 +614,19 @@ a:hover {
 
 .contact-card {
 	padding: 40px 0px;
+}
+
+.project-page-logo {
+	margin-left: 20px;
+	width: 276px;
+	border-radius: 20px;
+}
+
+.project-page-founders-image {
+	width: 650px;
+	margin-bottom: 40px;
+}
+
+.project-page-text-card-lap {
+	margin: 0px 10% 50px 10%;
 }
