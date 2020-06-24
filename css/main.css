@@ -659,6 +659,11 @@ a:hover {
 .project-page-logo {
 	margin-left: 20px;
 	border-radius: 20px;
+	transition-duration: 0.25s;
+}
+
+.project-page-logo:hover{
+	opacity: 70%;
 }
 
 
