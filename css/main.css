@@ -205,6 +205,14 @@ a:hover {
 		display: flex;
 	}
 	
+	.project-page-logo{
+		display: none;
+	}
+	
+	.display-mob-none{
+		display: none;
+	}
+	
 	.project-title-mob{
 		display: block;
 	}
