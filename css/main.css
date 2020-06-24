@@ -33,7 +33,7 @@ a:hover {
 
 .about-card-mobile {
 	display: none;
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 
 .tiles-para {
@@ -192,6 +192,10 @@ a:hover {
 	}
 
 	.project-page-logo-mob {
+		display: none;
+	}
+	
+	.display-lap-none{
 		display: none;
 	}
 }
