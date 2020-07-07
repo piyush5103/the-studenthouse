@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Embark | The StudentHouse</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/uikit.min.css" />
+	<script src="js/uikit.min.js"></script>
+	<script src="js/uikit-icons.min.js"></script>
+	<link rel="stylesheet" href="css/main.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="fonts/style.css" rel="stylesheet" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/img/favicon/site.webmanifest">
+
+</head>
+
+<body>
+	<header>
+		<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; animation: uk-animation-slide-top; top:200">
+			<nav class="uk-navbar-container navMenuFull" uk-navbar="align: center" style="background-color: white">
+				<div class="uk-navbar-center">
+					<a class="uk-navbar-item uk-logo" href="/"><img data-src="img/logo-small.jpg" width="104" height="104" alt="logo" uk-img></a>
+
+					<ul class="uk-navbar-nav">
+						<li><a href="/our-team.html" class="navbarLink"><span class="navbarText">Our Team</span></a></li>
+						<li>
+							<a href="#" class="navbarLink"><span class="navbarText">Services</span></a>
+							<div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
+								<div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+									<div>
+										<ul class="uk-nav uk-navbar-dropdown-nav">
+											<li class="uk-nav-header navbarText">Mentorship</li>
+											<li class="navbarText"><a href="/mentoring.html">Learn More about Mentorship</a></li>
+											<li class="navbarText"><a href="/mentoring.html#mentors">Our Mentors</a></li>
+
+										</ul>
+									</div>
+									<div>
+										<ul class="uk-nav uk-navbar-dropdown-nav">
+											<li class="uk-nav-header navbarText">Projects</li>
+											<li class="navbarText"><a href="/join.html">Join a Project</a></li>
+											<li class="navbarText"><a href="/create.html">Create a Project</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="/faq.html" class="navbarLink"><span class="navbarText">FAQ</span></a></li>
+						<li><a href="/contact.html" class="navbarLink"><span class="navbarText">Contact</span></a></li>
+						<li><a href="/webinarsandevents.html" class="navbarLink"><span class="navbarText">Webinars and Events</span></a></li>
+					</ul>
+				</div>
+
+
+
+			</nav>
+		</div>
+
+		<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; animation: uk-animation-slide-top; top:200">
+
+			<nav class="uk-navbar-container navToggleButt" style="background-color: white" uk-navbar>
+				<div class="uk-navbar-center">
+					<a class="uk-navbar-item uk-logo" href="/"><img data-src="img/logo-small.jpg" width="60" height="60" alt="logo" uk-img></a>
+				</div>
+				<div class="uk-navbar-right">
+					<ul class="uk-navbar-nav">
+						<li>
+							<a class="uk-navbar-toggle" href="#" uk-toggle="target: #offcanvas-nav">
+								<span class="uk-margin-small-right navbarText" style="padding-top: 1px">Menu</span>
+								<span uk-navbar-toggle-icon></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+			<div class="uk-offcanvas-bar">
+				<a class="uk-navbar-item uk-logo" href="/"><img data-src="img/logo-small.jpg" width="110" height="110" alt="logo" style="border-radius: 21px; margin-bottom: 20px" uk-img></a>
+				<ul class="uk-nav uk-nav-default navMenuText">
+					<li><a href="/">Home</a></li>
+					<li><a href="/our-team.html">Our Team</a></li>
+					<li style="color: #bababa;">Services</li>
+					<li class="uk-parent">
+						<ul class="uk-nav-sub">
+							<li>
+								<a href="/mentoring.html" style="color: #bababa;">Mentorship</a>
+								<ul class="uk-nav-sub">
+									<li><a href="/mentoring.html">Learn More about Mentorship</a></li>
+									<li><a href="/mentoring.html#mentors">Our Mentors</a></li>
+
+								</ul>
+							</li>
+							<li>
+								<a style="color: #bababa;">Projects</a>
+								<ul class="uk-nav-sub">
+									<li><a href="/join.html">Join a Project</a></li>
+									<li><a href="/create.html">Create a Project</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="/faq.html">FAQ</a></li>
+					<li><a href="/contact.html">Contact</a></li>
+					<li><a href="/webinarsandevents.html">Webinars and Events</a></li>
+				</ul>
+			</div>
+		</div>
+
+
+	</header>
+
+
+	<div class="uk-height-medium uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200" style="background-image: url('img/slideshow/slideshow1.jpg'); margin-bottom: 40px;">
+
+		<h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" style="font-family: 'Lulo Clean One Bold', sans-serif;">Embark</h1>
+
+	</div>
+
+
+	<div class="uk-flex uk-flex-center" style="margin-bottom: 8px;">
+		<a href="https://www.instagram.com/embark_2020/" target="_blank"><img class="project-page-logo uk-margin-remove" data-src="img/affil/embark/logo.png" width="180" height="180" alt="" uk-img></a>
+	</div>
+
+
+	<div class="uk-text-center uk-margin-bottom home-title" style="color: #f7ab54;">About Us</div>
+
+
+	<div class="about-card-mobile">
+		<div class="uk-card uk-card uk-card-body uk-margin-right uk-margin-left" style="background-color: #BeE5FB">
+			<p style="font-family: 'Avenir LT Std 35 Light', sans-serif; letter-spacing: 0.25px; line-height: 1.6; color: #4D4D4D; text-align: justify; margin-bottom: 3px">"Embark — Connecting the leaders of today to the creators of tomorrow": with the ongoing Coronavirus pandemic, students all over the world are more anxious than ever about their futures. The only thing we know for certain is when the global economy begins to recover, the job market will be extremely competitive. To better prepare and understand the different jobs available in the present day (as well as the future), Embark aims to connect middle and high school students to entrepreneurs and leaders from various sectors and walks of life. By presenting an opportunity to interact with those who have experience and understanding, the goal is to give students more clarity on their academic and career-related choices. With interactive Instagram LIVE sessions being hosted every Friday at 5PM (Instagram.com/embark_2020), you can select those that interest you and join in the candid conversation with success stories from all across the nation! Absolutely free of cost and open to any and all, you can ask your questions to the speakers, and even contact them separately to seek one-on-one advice after. Whether you’re 13 or 23, exploration never stops; Embark is here to be the ship that carries you across the sea of the future!</p>
+
+
+		</div>
+	</div>
+
+
+	<div class="project-page-text-card-lap">
+		<div class="uk-box-shadow-small uk-card uk-card-body" style="background-color: #BeE5FB">
+			<p style="font-family: 'Avenir LT Std 35 Light', sans-serif; letter-spacing: 0.25px; line-height: 1.5; text-align: justify; font-size: 22px; color: #4D4D4D; margin-bottom: 3px">"Embark — Connecting the leaders of today to the creators of tomorrow": with the ongoing Coronavirus pandemic, students all over the world are more anxious than ever about their futures. The only thing we know for certain is when the global economy begins to recover, the job market will be extremely competitive. To better prepare and understand the different jobs available in the present day (as well as the future), Embark aims to connect middle and high school students to entrepreneurs and leaders from various sectors and walks of life. By presenting an opportunity to interact with those who have experience and understanding, the goal is to give students more clarity on their academic and career-related choices. With interactive Instagram LIVE sessions being hosted every Friday at 5PM (Instagram.com/embark_2020), you can select those that interest you and join in the candid conversation with success stories from all across the nation! Absolutely free of cost and open to any and all, you can ask your questions to the speakers, and even contact them separately to seek one-on-one advice after. Whether you’re 13 or 23, exploration never stops; Embark is here to be the ship that carries you across the sea of the future!</p>
+
+		</div>
+
+	</div>
+
+
+
+	<div class="uk-text-center uk-margin-bottom home-title" style="color: #f7ab54;">The Founder</div>
+	<div class="uk-text-center uk-margin-left uk-margin-right">
+		<img class="project-page-founders-image" data-src="img/affil/embark/founder.jpg" width="320" height="360" alt="" uk-img>
+
+	</div>
+
+	<div class="project-page-text-card-lap">
+		<div class="uk-box-shadow-small uk-card uk-card-body" style="background-color: #BeE5FB">
+			<p style="font-family: 'Avenir LT Std 35 Light', sans-serif; letter-spacing: 0.25px; line-height: 1.5; text-align: justify; font-size: 22px; color: #4D4D4D">Dia Daryanani, the founder of Embark, is an incoming junior at Oberoi International School. Starting the IBDP soon, she takes keen interest in global politics, Economics and Business. Apart from academics, she enjoys debating, MUNning, playing the piano, reading and binge watching sitcoms (<span style="font-style: italic">How I Met Your Mother, Gilmore Girls, Friends</span> — you name it, she knows it!). A fun-loving, ambitious, yet “chill” person, Dia loves meeting new people and trying new things: she hopes that through her new initiative Embark, she can make an impact on her peers and give the youth exposure to the endless and exciting possibilities the future beholds!</p>
+		</div>
+
+	</div>
+	<div class="about-card-mobile">
+		<div class="uk-card uk-card uk-card-body uk-margin-right uk-margin-left" style="background-color: #BeE5FB">
+			<p style="font-family: 'Avenir LT Std 35 Light', sans-serif; letter-spacing: 0.25px; line-height: 1.6; color: #4D4D4D; text-align: justify">Dia Daryanani, the founder of Embark, is an incoming junior at Oberoi International School. Starting the IBDP soon, she takes keen interest in global politics, Economics and Business. Apart from academics, she enjoys debating, MUNning, playing the piano, reading and binge watching sitcoms (<span style="font-style: italic">How I Met Your Mother, Gilmore Girls, Friends</span> — you name it, she knows it!). A fun-loving, ambitious, yet “chill” person, Dia loves meeting new people and trying new things: she hopes that through her new initiative Embark, she can make an impact on her peers and give the youth exposure to the endless and exciting possibilities the future beholds!</p>
+
+		</div>
+	</div>
+
+
+	<div class="uk-text-center uk-margin-bottom home-title" style="color: #f7ab54;">How it will benefit you</div>
+
+	<div class="project-page-text-card-lap">
+		<div class="uk-box-shadow-small uk-card uk-card-body" style="background-color: #BeE5FB">
+			<ul class="uk-list uk-list-disc" style="font-family: 'Avenir LT Std 35 Light', sans-serif; letter-spacing: 0.25px; line-height: 1.5; text-align: justify; font-size: 20px; color: #4D4D4D; margin-top: 0px">
+				<li>Get the chance to interact with successful people for a professional purpose whilst organising sessions</li>
+				<ul class="uk-list uk-list-disc uk-margin-remove-bottom uk-margin-small-top">
+					<li>Build a network with those who may benefit you in your own endeavours to pursue a particular career path</li>
+				</ul>
+				<li>Get professional experience (that may count on a resume) in designing and content creation</li>
+				<li>Get credit for your contribution on an upcoming website</li>
+				<li>Be the first to know about events being hosted on Embark</li>
+				<li>Network with other like-minded, willing and capable students</li>
+			</ul>
+
+		</div>
+
+	</div>
+
+	<div class="about-card-mobile">
+		<div class="uk-card uk-card uk-card-body uk-margin-right uk-margin-left" style="background-color: #BeE5FB">
+
+			<ul class="uk-list uk-list-disc" style="font-family: 'Avenir LT Std 35 Light', sans-serif; letter-spacing: 0.25px; line-height: 1.6; text-align: justify; color: #4D4D4D; margin-top: 0px">
+				<li>Get the chance to interact with successful people for a professional purpose whilst organising sessions</li>
+				<ul class="uk-list uk-list-disc uk-margin-remove-bottom uk-margin-small-top">
+					<li>Build a network with those who may benefit you in your own endeavours to pursue a particular career path</li>
+				</ul>
+				<li>Get professional experience (that may count on a resume) in designing and content creation</li>
+				<li>Get credit for your contribution on an upcoming website</li>
+				<li>Be the first to know about events being hosted on Embark</li>
+				<li>Network with other like-minded, willing and capable students</li>
+			</ul>
+
+		</div>
+	</div>
+	<div style="margin-bottom: 55px">
+		<div class="uk-flex uk-flex-center">
+			<a href="https://forms.gle/UimLJVvPbRXh8ikJ6" target="_blank" style="font-size: 22px; font-family: 'Lulo Clean One Bold', sans-serif; color: white;">
+				<div class="uk-card uk-card-body project-page-apply-now" style="padding-left: 50px; padding-right: 50px;">Apply Now</div>
+			</a>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var submitted = false;
+	</script>
+	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/thankyou.html';}"></iframe>
+	<footer>
+
+
+		<div style="background-color: #23324f" class="footer-lap">
+			<div class="uk-flex uk-flex-between uk-margin-xlarge-left uk-padding uk-padding-remove-left">
+
+				<div class="uk-width-1-5 uk-margin-medium-top uk-margin-medium-right">
+					<img data-src="img/logo.jpg" width="209" height="212" alt="" uk-img>
+					<div class="uk-text-center uk-margin-right uk-margin">
+						<a href="https://www.instagram.com/thestudenthouse_/" target="_blank" class="uk-icon-link" uk-icon="instagram" style="color: white;" uk-icon="ratio:1.5"></a>
+
+					</div>
+
+				</div>
+
+				<div class="uk-width-4-5">
+
+
+
+					<div class="uk-margin-small-bottom" style="font-family: 'Lulo Clean One Bold', sans-serif; font-size: 20px; color: white;">Have Other Questions?</div>
+					<div class="uk-flex uk-flex-between">
+
+						<div class="uk-width-1-3">
+
+
+							<p class="footer-para">
+								<span style="font-size: 1.1em">Contact us</span><br>
+								Raghav Ruia<br>
+								<a class="footer-num" href="mailto:raghav@thestudenthouse.org" target="_blank">raghav@thestudenthouse.org</a><br>
+								<a class="footer-num" href="tel:+919004436173">+91 90044 36173</a>
+
+								<br>
+
+								Yohan Khan<br>
+								<a class="footer-num" href="mailto:yohan@thestudenthouse.org" target="_blank">yohan@thestudenthouse.org</a><br>
+								<a class="footer-num" href="tel:+919594055555">+91 95940 55555</a>
+
+								<br>
+
+								Piyush Pahuja<br>
+								<a class="footer-num" href="mailto:piyush@thestudenthouse.org" target="_blank">piyush@thestudenthouse.org</a><br>
+								<a class="footer-num" href="tel:+918700997840">+91 87009 97840</a>
+							</p>
+						</div>
+
+						<div class="uk-width-2-3">
+
+
+
+							<form class="uk-margin-small-top uk-width-4-5" style="font-family: 'Avenir LT Std 35 Light', sans-serif" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe61SN7BvRNFUueUCR8oSmN0xsmhxVVeU0xLqntLeyfw9jqog/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
+								<div class="uk-margin-small">
+									<input name="entry.1952087121" class="uk-input uk-form-small footer-form-field" type="text" placeholder="Name">
+								</div>
+
+								<div class="uk-margin-small">
+									<input name="entry.401390988" class="uk-input uk-form-small footer-form-field" type="text" placeholder="Email Address">
+								</div>
+
+								<div class="uk-margin-small">
+									<input name="entry.684779607" class="uk-input uk-form-small footer-form-field" type="text" placeholder="Phone Number (optional)">
+								</div>
+
+								<div class="uk-margin-small">
+									<textarea name="entry.1967231990" class="uk-textarea uk-form-small footer-form-field" rows="5" placeholder="Type your message here..."></textarea>
+								</div>
+
+								<button class="uk-button uk-button-small uk-align-right" type="submit">Send</button>
+
+							</form>
+
+
+
+
+
+						</div>
+
+					</div>
+
+
+
+
+
+				</div>
+
+
+
+			</div>
+
+
+		</div>
+
+
+
+
+		<div style="background-color: #23324f" class="footer-mob">
+			<div class="uk-flex uk-flex-between uk-flex-column uk-margin-large-left uk-margin-large-right uk-padding uk-padding-remove-horizontal">
+
+
+
+
+
+
+				<div class="uk-margin-small-bottom" style="font-family: 'Lulo Clean One Bold', sans-serif; font-size: 20px; color: white;">Have Other Questions?</div>
+				<div>
+
+
+
+
+					<form class="uk-margin-small-top" style="font-family: 'Avenir LT Std 35 Light', sans-serif" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe61SN7BvRNFUueUCR8oSmN0xsmhxVVeU0xLqntLeyfw9jqog/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
+						<div class="uk-margin-small">
+							<input name="entry.1952087121" class="uk-input uk-form-small footer-form-field" type="text" placeholder="Name">
+						</div>
+
+						<div class="uk-margin-small">
+							<input name="entry.401390988" class="uk-input uk-form-small footer-form-field" type="text" placeholder="Email Address">
+						</div>
+
+						<div class="uk-margin-small">
+							<input name="entry.684779607" class="uk-input uk-form-small footer-form-field" type="text" placeholder="Phone Number (optional)">
+						</div>
+
+						<div class="uk-margin-small">
+							<textarea name="entry.1967231990" class="uk-textarea uk-form-small footer-form-field" rows="5" placeholder="Type your message here..."></textarea>
+						</div>
+
+						<button class="uk-button uk-button-small uk-align-right" type="submit">Submit</button>
+
+					</form>
+
+
+
+
+
+
+				</div>
+
+
+
+			</div>
+
+
+		</div>
+
+
+	</footer>
+
+
+
+</body></html>
