@@ -669,9 +669,15 @@ a:hover {
 
 
 .project-page-founders-image {
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 
 .project-page-text-card-lap {
 	margin: 0px 10% 50px 10%;
+}
+
+.founder-caption {
+	margin-top: 10px;
+	margin-bottom: 22px;
+	font-family: 'Avenir LT Std 65 medium', sans-serif;
 }
